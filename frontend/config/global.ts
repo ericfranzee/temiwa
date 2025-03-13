@@ -5,8 +5,8 @@ const envLocation = process.env.NEXT_PUBLIC_DEFAULT_LOCATION?.split(",");
 export const defaultLocation = envLocation
   ? { lat: Number(envLocation[0]), lng: Number(envLocation[1]) }
   : {
-      lat: 41.349801,
-      lng: 69.2519935,
+      lat: 9.064477,
+      lng: 7.486209,
     };
 
 export const activeOrderStatuses = ["new", "accepted", "ready", "on_a_way"];

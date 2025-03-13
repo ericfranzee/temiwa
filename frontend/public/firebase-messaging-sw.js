@@ -6,15 +6,16 @@
 // Scripts for firebase and firebase messaging
 importScripts("https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js");
 importScripts("https://www.gstatic.com/firebasejs/8.2.0/firebase-messaging.js");
+importScripts('https://cdn.jsdelivr.net/npm/idb-keyval@6/dist/umd.js');
 
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
-  measurementId: "",
+  apiKey: "AIzaSyBnyg4rjjOAsCqDuYYGZQBjp6RYn3DSa7Y",
+  authDomain: "temi-wa.firebaseapp.com",
+  projectId: "temi-wa",
+  storageBucket: "temi-wa.firebasestorage.app",
+  messagingSenderId: "356560069025",
+  appId: "1:356560069025:web:edf9898fd9d93c9c5d2be0",
+  measurementId: "G-RFXH2826HJ"
 };
 
 firebase.initializeApp(firebaseConfig);
@@ -28,4 +29,5 @@ messaging.onBackgroundMessage(function (payload) {
   };
 
   self.registration.showNotification(notificationTitle, notificationOptions);
+  idbKeyval.set(notificationTitle, notificationOptions.body);
 });

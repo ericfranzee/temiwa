@@ -9,13 +9,13 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "api.uzmart.org",
+        hostname: "api.temiwa.com",
         port: "",
         pathname: "/storage/**",
       },
       {
         protocol: "https",
-        hostname: "foodyman.s3.amazonaws.com",
+        hostname: "temiwa.s3.amazonaws.com",
         port: "",
         pathname: "/public/**",
       },
@@ -33,7 +33,11 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "api.demand24.org",
+        hostname: "cloudflare.com",
+      },
+      {
+        protocol: "https",
+        hostname: "api.temiwa.com",
       },
     ],
   },
