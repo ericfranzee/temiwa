@@ -11,8 +11,8 @@
 # next.js
 
 /out/
-/cache/
-*/cache/
+/.pack
+*.pack
 
 # production
 
