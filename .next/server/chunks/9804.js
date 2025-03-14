@@ -1,1 +1,0 @@
-"use strict";exports.id=9804,exports.ids=[9804],exports.modules={39804:(e,t,s)=>{s.r(t),s.d(t,{BookingPaymentList:()=>p});var a=s(95344),o=s(90543),r=s(97771),n=s(86596);let p=()=>{let{state:e,dispatch:t}=(0,o.v)();return a.jsx(n._,{onChange:e=>{t({type:r.Y.SetPayment,payload:e})},value:e.payment})}}};
