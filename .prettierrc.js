@@ -1,5 +1,6 @@
 module.exports = {
-  semi: true,
-  singleQuote: true,
-  jsxSingleQuote: true,
+  printWidth: 100,
+  singleQuote: false,
+  trailingComma: "es5",
+  endOfLine: "auto",
 };
