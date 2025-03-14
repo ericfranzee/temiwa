@@ -1,0 +1,1 @@
+"use strict";exports.id=6191,exports.ids=[6191],exports.modules={4345:(e,r,t)=>{t.r(r),t.d(r,{default:()=>i});let s=(0,t(86843).createProxy)(String.raw`/home/user/temiwa/components/profile-sidebar/sidebar.tsx`),{__esModule:o,$$typeof:d}=s,i=s.default}};

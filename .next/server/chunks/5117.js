@@ -1,0 +1,1 @@
+"use strict";exports.id=5117,exports.ids=[5117],exports.modules={35117:(e,t,s)=>{s.r(t),s.d(t,{default:()=>r});var i=s(95344),o=s(10206);s(3729);let r=({animationData:e,height:t=400,width:s})=>i.jsx(o.Z,{options:{loop:!0,autoplay:!0,animationData:e,rendererSettings:{preserveAspectRatio:"xMidYMid slice",scaleMode:"contain"}},height:t,width:s})}};
